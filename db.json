@@ -1,0 +1,21 @@
+{
+  "students": [
+    {"id": 1, "studentName": "Rahul Kumar", "className": "5-A", "mobileNumber": "9876543210", "pickupPlace": "Kukatpally", "joiningDate": "2026-06-10", "monthlyFee": 1000, "active": true},
+    {"id": 2, "studentName": "Ananya Reddy", "className": "7-B", "mobileNumber": "9876501234", "pickupPlace": "Miyapur", "joiningDate": "2026-04-12", "monthlyFee": 1200, "active": true},
+    {"id": 3, "studentName": "Arjun Rao", "className": "4-C", "mobileNumber": "9866123456", "pickupPlace": "Moosapet", "joiningDate": "2026-07-01", "monthlyFee": 900, "active": true},
+    {"id": 4, "studentName": "Sneha Sharma", "className": "8-A", "mobileNumber": "9849011122", "pickupPlace": "Bachupally", "joiningDate": "2026-05-20", "monthlyFee": 1300, "active": true},
+    {"id": 5, "studentName": "Vihan Patel", "className": "3-B", "mobileNumber": "9988776655", "pickupPlace": "Nizampet", "joiningDate": "2026-08-15", "monthlyFee": 900, "active": true},
+    {"id": 6, "studentName": "Diya Singh", "className": "6-A", "mobileNumber": "9912345678", "pickupPlace": "Pragathi Nagar", "joiningDate": "2026-03-10", "monthlyFee": 1100, "active": true},
+    {"id": 7, "studentName": "Aditya Varma", "className": "9-C", "mobileNumber": "9900112233", "pickupPlace": "Chandanagar", "joiningDate": "2026-02-14", "monthlyFee": 1400, "active": true},
+    {"id": 8, "studentName": "Ishita Rao", "className": "2-A", "mobileNumber": "9888123456", "pickupPlace": "Hafeezpet", "joiningDate": "2026-09-01", "monthlyFee": 850, "active": true},
+    {"id": 9, "studentName": "Kabir Khan", "className": "10-B", "mobileNumber": "9877012345", "pickupPlace": "Kondapur", "joiningDate": "2026-01-12", "monthlyFee": 1500, "active": true},
+    {"id": 10, "studentName": "Meera Das", "className": "5-B", "mobileNumber": "9866012345", "pickupPlace": "JNTU", "joiningDate": "2026-06-18", "monthlyFee": 1000, "active": true}
+  ],
+  "payments": [
+    {"id": 1, "studentId": 1, "month": "2026-10", "amount": 1000, "paymentDate": "2026-10-03", "status": "PAID"},
+    {"id": 2, "studentId": 2, "month": "2026-10", "amount": 1200, "paymentDate": "2026-10-02", "status": "PAID"},
+    {"id": 3, "studentId": 4, "month": "2026-10", "amount": 650, "paymentDate": "2026-10-01", "status": "PARTIAL"},
+    {"id": 4, "studentId": 6, "month": "2026-10", "amount": 1100, "paymentDate": "2026-10-04", "status": "PAID"},
+    {"id": 5, "studentId": 9, "month": "2026-10", "amount": 1500, "paymentDate": "2026-10-02", "status": "PAID"}
+  ]
+}

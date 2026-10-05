@@ -1,0 +1,31 @@
+{
+  "name": "siva-transport",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build",
+    "api": "json-server --watch db.json --port 3000",
+    "dev": "concurrently \"npm run api\" \"npm start\""
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "18.2.14",
+    "@angular/common": "18.2.14",
+    "@angular/compiler": "18.2.14",
+    "@angular/core": "18.2.14",
+    "@angular/forms": "18.2.14",
+    "@angular/platform-browser": "18.2.14",
+    "@angular/router": "18.2.14",
+    "rxjs": "7.8.1",
+    "tslib": "2.7.0",
+    "zone.js": "0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "18.2.21",
+    "@angular/cli": "18.2.21",
+    "@angular/compiler-cli": "18.2.14",
+    "concurrently": "9.1.2",
+    "json-server": "1.0.0-beta.3",
+    "typescript": "5.5.4"
+  }
+}
